@@ -4,25 +4,16 @@
 let fs = require('fs')
 let path = require('path')
 
-// did it build in the dev branch?
-
-// this is dev
-
 // module entry point
 exports.handler = (event, context, callback) => {
 
-  try {
-    console.log('received event ' + JSON.stringify(event))
+  console.log('received event ' + JSON.stringify(event))
 
-    let filePath = path.join(__dirname, 'page.html')
-    let html = fs.readFileSync(filePath).toString()
+  let filePath = path.join(__dirname, 'page.html')
+  let html = fs.readFileSync(filePath).toString()
 
-    sendHtmlResponse(context, 200, html)
+  sendHtmlResponse(context, 200, html)
 
-  } catch (err) {
-    let html500 = errorHelper.logErrorAndReturn500Html(event, err.Message, 'error 500 page', err)
-    sendHtmlResponse(context, 500, html500)
-  }
 }
 
 // output html to AWS Lambda context object

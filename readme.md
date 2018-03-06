@@ -16,8 +16,6 @@ To use / modify etc the source code you can get started by:
 
 3.  This component can be built using AWS Codebuild.  Use the `buildspec.yaml` template if building using Codebuild
 
-4.  edit online ?
-
 
      
 
