@@ -1,0 +1,9 @@
+{
+    "resource": "/myResource",
+    "httpMethod": "GET",
+    "headers": {
+    },
+    "queryStringParameters": null,
+    "pathParameters": null,
+    "body": null
+}

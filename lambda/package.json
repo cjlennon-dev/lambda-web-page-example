@@ -1,0 +1,15 @@
+{
+  "name": "lambda-web-page",
+  "version": "0.1.7",
+  "description": "API Gateway endpoint connect to Lambda function which returns HTML",
+  "main": "index.js",
+  "scripts": {
+    "mock": "node mock/mock.js",
+    "git-nuke-history": "git checkout --orphan latest_branch & git add -A & git commit -am \"initial commit\" & git branch -D master &  git branch -m master & git push -f origin master"
+  },
+  "author": "Chris Lennon",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
