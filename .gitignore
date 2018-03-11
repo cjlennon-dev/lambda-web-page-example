@@ -1,5 +1,5 @@
 *.env
-*.config.*
+*.config*
 node_modules/
 lambda/mock/mocked-response*
 lambda/mock/event-private*
