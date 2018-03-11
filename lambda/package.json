@@ -1,6 +1,6 @@
 {
   "name": "lambda-web-page",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "API Gateway endpoint connect to Lambda function which returns HTML",
   "main": "index.js",
   "scripts": {
