@@ -3,7 +3,7 @@
 // require node core modules
 let fs = require('fs')
 let path = require('path')
-
+ 
 // module entry point
 exports.handler = (event, context, callback) => {
 
