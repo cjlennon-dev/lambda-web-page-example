@@ -1,5 +1,5 @@
 {
-  "name": "lambda-web-page",
+  "name": "lambda-web-page-example",
   "version": "0.1.8",
   "description": "API Gateway endpoint connect to Lambda function which returns HTML",
   "main": "index.js",
