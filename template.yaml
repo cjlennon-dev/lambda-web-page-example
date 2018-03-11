@@ -31,7 +31,7 @@ Resources:
       Description: API Endpoint connected to lambda function, returns HTML.
       MemorySize: 128
       Timeout: 30
-      CodeUri: s3://lambda-web-page-public/lambda-web-page/lambda-web-page~0.1.8.zip
+      CodeUri: s3://chris-build-00-oregon-public/lambda-web-page-example/build-output-master/lambda-web-page-example~0.1.10.zip
       Events:
         GetApi:
           Type: Api
