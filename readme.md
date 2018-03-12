@@ -4,7 +4,7 @@ This component creates an API Gateway endpoint that is linked to a Lambda functi
 
 ## Intallation
 
-Install this component from the [AWS Serverless Repository](https://serverlessrepo.aws.amazon.com/applications/arn:aws:serverlessrepo:us-east-1:526133899854:applications~lambda-web-page) 
+Install this component from the [AWS Serverless Repository](https://serverlessrepo.aws.amazon.com/#/applications/arn:aws:serverlessrepo:us-east-2:494028075635:applications~lambda-web-page-example) 
 
 ## Local development
 
